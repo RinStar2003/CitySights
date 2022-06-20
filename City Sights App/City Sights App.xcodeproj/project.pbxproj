@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44529A2427CA9A33006B939E /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44529A2327CA9A33006B939E /* ContentModel.swift */; };
+		447FB3EE27CD508E001260AA /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447FB3ED27CD508E001260AA /* Business.swift */; };
+		447FB3F027CD55E7001260AA /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447FB3EF27CD55E7001260AA /* BusinessSearch.swift */; };
+		44A6829927D3A0090056A904 /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A6829827D3A0090056A904 /* BusinessList.swift */; };
+		44A6829B27D3A6510056A904 /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A6829A27D3A6510056A904 /* BusinessSectionHeader.swift */; };
+		44A6829D27D3A8940056A904 /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A6829C27D3A8940056A904 /* BusinessSection.swift */; };
+		44A6829F27D3B0B80056A904 /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A6829E27D3B0B80056A904 /* BusinessRow.swift */; };
+		44A682A227D5F79F0056A904 /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A682A127D5F79F0056A904 /* BusinessDetail.swift */; };
+		44A682A527D8C1910056A904 /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A682A427D8C1910056A904 /* BusinessMap.swift */; };
+		44A682A827D8C1B40056A904 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44A682A727D8C1B40056A904 /* MapKit.framework */; };
+		44B3C79C27EE401E00AFFBC4 /* LocationDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B3C79B27EE401E00AFFBC4 /* LocationDeniedView.swift */; };
+		44B3C79F27EE4D2C00AFFBC4 /* YelpAttrubution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B3C79E27EE4D2C00AFFBC4 /* YelpAttrubution.swift */; };
+		44C046F627CA90AA0097F88C /* CitySightsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C046F527CA90AA0097F88C /* CitySightsApp.swift */; };
+		44C046F827CA90AA0097F88C /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C046F727CA90AA0097F88C /* LaunchView.swift */; };
+		44C046FA27CA90AC0097F88C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C046F927CA90AC0097F88C /* Assets.xcassets */; };
+		44C046FD27CA90AC0097F88C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C046FC27CA90AC0097F88C /* Preview Assets.xcassets */; };
+		44CFEF1227EFA2A800F6EFAE /* DashedDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CFEF1127EFA2A800F6EFAE /* DashedDivider.swift */; };
+		44E0F04C27E9C72D002FE8D5 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E0F04B27E9C72D002FE8D5 /* OnboardingView.swift */; };
+		44F0582027CE8EC300E03A03 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0581F27CE8EC300E03A03 /* Constants.swift */; };
+		44F0582527CE99FC00E03A03 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F0582427CE99FC00E03A03 /* HomeView.swift */; };
+		44F5E1C427DB871C002716F3 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5E1C327DB871C002716F3 /* DirectionsView.swift */; };
+		44F5E1C627DB89E0002716F3 /* BusinessTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5E1C527DB89E0002716F3 /* BusinessTitle.swift */; };
+		44F5E1C827DB96F1002716F3 /* DirectionsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F5E1C727DB96F1002716F3 /* DirectionsMap.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44529A2327CA9A33006B939E /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		447FB3ED27CD508E001260AA /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		447FB3EF27CD55E7001260AA /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
+		44A6829827D3A0090056A904 /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
+		44A6829A27D3A6510056A904 /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
+		44A6829C27D3A8940056A904 /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
+		44A6829E27D3B0B80056A904 /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
+		44A682A127D5F79F0056A904 /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
+		44A682A427D8C1910056A904 /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
+		44A682A727D8C1B40056A904 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		44B3C79B27EE401E00AFFBC4 /* LocationDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDeniedView.swift; sourceTree = "<group>"; };
+		44B3C79E27EE4D2C00AFFBC4 /* YelpAttrubution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAttrubution.swift; sourceTree = "<group>"; };
+		44C046F227CA90AA0097F88C /* City Sights App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "City Sights App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C046F527CA90AA0097F88C /* CitySightsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySightsApp.swift; sourceTree = "<group>"; };
+		44C046F727CA90AA0097F88C /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		44C046F927CA90AC0097F88C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44C046FC27CA90AC0097F88C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44CFEF1127EFA2A800F6EFAE /* DashedDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedDivider.swift; sourceTree = "<group>"; };
+		44E0F04B27E9C72D002FE8D5 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		44F0581F27CE8EC300E03A03 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		44F0582427CE99FC00E03A03 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		44F5E1C327DB871C002716F3 /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		44F5E1C527DB89E0002716F3 /* BusinessTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTitle.swift; sourceTree = "<group>"; };
+		44F5E1C727DB96F1002716F3 /* DirectionsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsMap.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44C046EF27CA90AA0097F88C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A682A827D8C1B40056A904 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44A6829727D39FEC0056A904 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				44A6829827D3A0090056A904 /* BusinessList.swift */,
+				44A6829A27D3A6510056A904 /* BusinessSectionHeader.swift */,
+				44A6829C27D3A8940056A904 /* BusinessSection.swift */,
+				44A6829E27D3B0B80056A904 /* BusinessRow.swift */,
+				44A682A027D5F7810056A904 /* Detail */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		44A682A027D5F7810056A904 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				44A682A127D5F79F0056A904 /* BusinessDetail.swift */,
+				44F5E1C527DB89E0002716F3 /* BusinessTitle.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		44A682A327D8C1690056A904 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				44F5E1C327DB871C002716F3 /* DirectionsView.swift */,
+				44A682A427D8C1910056A904 /* BusinessMap.swift */,
+				44F5E1C727DB96F1002716F3 /* DirectionsMap.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		44A682A627D8C1B40056A904 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44A682A727D8C1B40056A904 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44B3C79D27EE4D0B00AFFBC4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				44B3C79E27EE4D2C00AFFBC4 /* YelpAttrubution.swift */,
+				44CFEF1127EFA2A800F6EFAE /* DashedDivider.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		44C046E927CA90AA0097F88C = {
+			isa = PBXGroup;
+			children = (
+				44C046F427CA90AA0097F88C /* City Sights App */,
+				44C046F327CA90AA0097F88C /* Products */,
+				44A682A627D8C1B40056A904 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44C046F327CA90AA0097F88C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44C046F227CA90AA0097F88C /* City Sights App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C046F427CA90AA0097F88C /* City Sights App */ = {
+			isa = PBXGroup;
+			children = (
+				44C046F527CA90AA0097F88C /* CitySightsApp.swift */,
+				44C0470527CA91030097F88C /* Views */,
+				44C0470427CA90FC0097F88C /* ViewModels */,
+				44C0470327CA90F60097F88C /* Models */,
+				44F0581E27CE8E5E00E03A03 /* Helpers */,
+				44C046F927CA90AC0097F88C /* Assets.xcassets */,
+				44C046FB27CA90AC0097F88C /* Preview Content */,
+			);
+			path = "City Sights App";
+			sourceTree = "<group>";
+		};
+		44C046FB27CA90AC0097F88C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				44C046FC27CA90AC0097F88C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44C0470327CA90F60097F88C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				447FB3ED27CD508E001260AA /* Business.swift */,
+				447FB3EF27CD55E7001260AA /* BusinessSearch.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		44C0470427CA90FC0097F88C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				44529A2327CA9A33006B939E /* ContentModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		44C0470527CA91030097F88C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				44B3C79D27EE4D0B00AFFBC4 /* Common */,
+				44C046F727CA90AA0097F88C /* LaunchView.swift */,
+				44F0582327CE99E400E03A03 /* Home */,
+				44F0582227CE99DB00E03A03 /* Denied */,
+				44F0582127CE99D200E03A03 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		44F0581E27CE8E5E00E03A03 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				44F0581F27CE8EC300E03A03 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		44F0582127CE99D200E03A03 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				44E0F04B27E9C72D002FE8D5 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		44F0582227CE99DB00E03A03 /* Denied */ = {
+			isa = PBXGroup;
+			children = (
+				44B3C79B27EE401E00AFFBC4 /* LocationDeniedView.swift */,
+			);
+			path = Denied;
+			sourceTree = "<group>";
+		};
+		44F0582327CE99E400E03A03 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				44F0582427CE99FC00E03A03 /* HomeView.swift */,
+				44A682A327D8C1690056A904 /* Map */,
+				44A6829727D39FEC0056A904 /* List */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44C046F127CA90AA0097F88C /* City Sights App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C0470027CA90AC0097F88C /* Build configuration list for PBXNativeTarget "City Sights App" */;
+			buildPhases = (
+				44C046EE27CA90AA0097F88C /* Sources */,
+				44C046EF27CA90AA0097F88C /* Frameworks */,
+				44C046F027CA90AA0097F88C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "City Sights App";
+			productName = "City Sights App";
+			productReference = 44C046F227CA90AA0097F88C /* City Sights App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44C046EA27CA90AA0097F88C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					44C046F127CA90AA0097F88C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 44C046ED27CA90AA0097F88C /* Build configuration list for PBXProject "City Sights App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44C046E927CA90AA0097F88C;
+			productRefGroup = 44C046F327CA90AA0097F88C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44C046F127CA90AA0097F88C /* City Sights App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44C046F027CA90AA0097F88C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C046FD27CA90AC0097F88C /* Preview Assets.xcassets in Resources */,
+				44C046FA27CA90AC0097F88C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44C046EE27CA90AA0097F88C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C046F827CA90AA0097F88C /* LaunchView.swift in Sources */,
+				44A6829F27D3B0B80056A904 /* BusinessRow.swift in Sources */,
+				44F5E1C427DB871C002716F3 /* DirectionsView.swift in Sources */,
+				44F0582527CE99FC00E03A03 /* HomeView.swift in Sources */,
+				44C046F627CA90AA0097F88C /* CitySightsApp.swift in Sources */,
+				44A6829B27D3A6510056A904 /* BusinessSectionHeader.swift in Sources */,
+				44B3C79F27EE4D2C00AFFBC4 /* YelpAttrubution.swift in Sources */,
+				44B3C79C27EE401E00AFFBC4 /* LocationDeniedView.swift in Sources */,
+				44529A2427CA9A33006B939E /* ContentModel.swift in Sources */,
+				44A682A227D5F79F0056A904 /* BusinessDetail.swift in Sources */,
+				44CFEF1227EFA2A800F6EFAE /* DashedDivider.swift in Sources */,
+				447FB3F027CD55E7001260AA /* BusinessSearch.swift in Sources */,
+				44F5E1C627DB89E0002716F3 /* BusinessTitle.swift in Sources */,
+				44A6829927D3A0090056A904 /* BusinessList.swift in Sources */,
+				44A682A527D8C1910056A904 /* BusinessMap.swift in Sources */,
+				44A6829D27D3A8940056A904 /* BusinessSection.swift in Sources */,
+				447FB3EE27CD508E001260AA /* Business.swift in Sources */,
+				44F0582027CE8EC300E03A03 /* Constants.swift in Sources */,
+				44E0F04C27E9C72D002FE8D5 /* OnboardingView.swift in Sources */,
+				44F5E1C827DB96F1002716F3 /* DirectionsMap.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		44C046FE27CA90AC0097F88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44C046FF27CA90AC0097F88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44C0470127CA90AC0097F88C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"City Sights App/Preview Content\"";
+				DEVELOPMENT_TEAM = N6S24J8FW5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "City-Sights-App-Info.plist";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to find restaurants and sights near you.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RinarProject.City-Sights-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44C0470227CA90AC0097F88C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"City Sights App/Preview Content\"";
+				DEVELOPMENT_TEAM = N6S24J8FW5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "City-Sights-App-Info.plist";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to find restaurants and sights near you.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "RinarProject.City-Sights-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44C046ED27CA90AA0097F88C /* Build configuration list for PBXProject "City Sights App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C046FE27CA90AC0097F88C /* Debug */,
+				44C046FF27CA90AC0097F88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C0470027CA90AC0097F88C /* Build configuration list for PBXNativeTarget "City Sights App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C0470127CA90AC0097F88C /* Debug */,
+				44C0470227CA90AC0097F88C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44C046EA27CA90AA0097F88C /* Project object */;
+}
